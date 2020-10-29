@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--    settings:控制mybatis全局行为-->
+    <settings>
+        <!--        设置mybatis输出日志-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <package name="com.atguigu.crud.bean"/>
+    </typeAliases>
+    
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+    </plugins>
+
+<!--    <mappers>-->
+<!--        <package name="mapper文件所在的包名"/>-->
+<!--    </mappers>-->
+    <mappers>
+        <package name="mapper"/>
+        <!--        <mapper resource="mapper"/>-->
+    </mappers>
+
+</configuration>
