@@ -2,7 +2,7 @@
 
 ## Table of contents
 - [Introduction](#introduction)
-- [Technology stack](#technology stack)
+- [Technology stack](#technology-stack)
 - [Functions](#functions)
 
 ### Introduction
@@ -23,3 +23,19 @@ This project is used for the management of the company's personnel, including th
 
 ### Functions
 
+1. The paging
+2. Data validation jquery front-end validation +JSR303 back-end validation
+3. ajax
+4. Rest-style URIs; Verbs that use the HTTP protocol request mode to represent operations on a resource (GET, POST, PUT, DELETE)
+
+#### create
+<div align=center><img src="images/create.png" width = "500" height = "250"  /></div>
+
+#### delete
+<div align=center><img src="images/delete.png" width = "500" height = "250"  /></div>
+
+#### retrieve
+<div align=center><img src="images/retrieve.png" width = "500" height = "250"  /></div>
+
+#### update
+<div align=center><img src="images/update.png" width = "500" height = "250"  /></div>
